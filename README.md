@@ -4,7 +4,7 @@ EdgeOne技术教程
 
 我做的相关教程网站（仅供参考）来源官方
 https://edgeone.zjw6.cn/
-
+详细请观看网站
 
 
 EdgeOne技术教程
