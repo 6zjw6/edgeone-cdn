@@ -1,7 +1,7 @@
 # EdgeOne技术教程
 
 > 从入门到实战 · 实时更新  
-> 官方教程参考：[https://edgeone.zjw6.cn/](https://edgeone.zjw6.cn/)
+> 完整版教程：[https://edgeone.zjw6.cn/](https://edgeone.zjw6.cn/)
 
 ---
 
