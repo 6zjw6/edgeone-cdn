@@ -17,7 +17,13 @@
 8. [工具链配置](#工具链配置)
 9. [最佳实践](#最佳实践)
 
+> **点击目录可自动跳转到对应章节**
+
 ---
+
+<a name="edgeone-简介"></a>
+
+![EdgeOne 简介](./images/edgeone_intro.png)
 
 ## EdgeOne 简介
 
@@ -35,6 +41,10 @@ EdgeOne是腾讯云推出的下一代边缘安全加速平台，基于腾讯全�
 用户 → 边缘节点 → 安全防护 → 源站
 
 ---
+
+<a name="快速入门"></a>
+
+![快速入门](./images/edgeone_quickstart.png)
 
 ## 快速入门
 
@@ -92,6 +102,10 @@ EdgeOne是腾讯云推出的下一代边缘安全加速平台，基于腾讯全�
 - 缓存策略生效
 
 ---
+
+<a name="使用案例"></a>
+
+![使用案例](./images/edgeone_cases.png)
 
 ## 使用案例
 
@@ -232,6 +246,10 @@ const data = await client.request('/user/profile', {
 ```
 
 ---
+
+<a name="pages-模板"></a>
+
+![Pages 模板](./images/edgeone_pages.png)
 
 ## Pages 模板
 
@@ -389,6 +407,10 @@ jobs:
 ```
 
 ---
+
+<a name="边缘函数"></a>
+
+![边缘函数](./images/edgeone_functions.png)
 
 ## 边缘函数
 
@@ -608,6 +630,10 @@ async function checkRateLimit(clientIP, env) {
 
 ---
 
+<a name="安全防护"></a>
+
+![安全防护](./images/edgeone_security.png)
+
 ## 安全防护
 
 全方位的安全防护体系，保护您的业务安全。
@@ -806,24 +832,185 @@ async function checkRateLimit(clientIP, env) {
 
 ---
 
+<a name="集成示例"></a>
+
+![集成示例](https://via.placeholder.com/800x200?text=集成示例)
+
 ## 集成示例
 
-（此处略，按前文格式继续美化即可...）
+### Node.js 集成
+
+```js
+// 使用EdgeOne加速API的Node.js示例
+const fetch = require('node-fetch');
+(async () => {
+  const response = await fetch('https://api.example.com.eo.dnse5.com/user', {
+    headers: { 'Host': 'api.example.com' }
+  });
+  const data = await response.json();
+  console.log(data);
+})();
+```
+
+### Python 集成
+
+```python
+# 使用EdgeOne加速API的Python示例
+import requests
+headers = {'Host': 'api.example.com'}
+r = requests.get('https://api.example.com.eo.dnse5.com/user', headers=headers)
+print(r.json())
+```
+
+### Java 集成
+
+```java
+// 使用EdgeOne加速API的Java示例
+import java.net.*;
+import java.io.*;
+public class EdgeOneDemo {
+  public static void main(String[] args) throws Exception {
+    URL url = new URL("https://api.example.com.eo.dnse5.com/user");
+    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+    conn.setRequestProperty("Host", "api.example.com");
+    BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+    String inputLine;
+    while ((inputLine = in.readLine()) != null) System.out.println(inputLine);
+    in.close();
+  }
+}
+```
+
+### 集成常见问题（FAQ）
+
+- **Q: 如何设置自定义Host头？**
+  > A: 在请求时通过 `Host` 头部指定源站域名，见上方代码示例。
+- **Q: 支持哪些语言SDK？**
+  > A: 支持所有可自定义HTTP头的语言，官方推荐Node.js、Python、Go、Java等。
+- **Q: API限流如何处理？**
+  > A: 可结合EdgeOne限流规则和应用层自定义限流。
 
 ---
+
+<a name="工具链配置"></a>
+
+![工具链配置](https://via.placeholder.com/800x200?text=工具链配置)
 
 ## 工具链配置
 
-（此处略，按前文格式继续美化即可...）
+### 推荐工具链
+
+| 工具         | 说明                 | 官网链接                                  |
+| ------------ | -------------------- | ----------------------------------------- |
+| Node.js      | 服务端JS运行环境     | [nodejs.org](https://nodejs.org/)         |
+| Python       | 脚本与自动化         | [python.org](https://www.python.org/)     |
+| Go           | 高性能后端开发        | [golang.org](https://golang.org/)         |
+| GitHub Actions | 自动化CI/CD         | [github.com/actions](https://github.com/features/actions) |
+| Vercel       | 前端部署与托管        | [vercel.com](https://vercel.com/)         |
+| Docker       | 容器化部署           | [docker.com](https://www.docker.com/)     |
+
+### 工具链配置示例
+
+```yaml
+# GitHub Actions自动部署EdgeOne Pages
+name: Deploy to EdgeOne Pages
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Deploy to EdgeOne Pages
+        uses: TencentEdgeOne/pages-action@v1
+        with:
+          api-token: ${{ secrets.EDGEONE_API_TOKEN }}
+          project-name: my-project
+          directory: ./dist
+```
+
+### 工具链FAQ
+
+- **Q: 如何本地调试EdgeOne函数？**
+  > A: 推荐使用 [Miniflare](https://miniflare.dev/) 或 [Wrangler](https://developers.cloudflare.com/workers/wrangler/) 进行本地模拟。
+- **Q: CI/CD失败如何排查？**
+  > A: 检查API Token权限、构建日志、依赖安装等常见问题。
 
 ---
+
+<a name="最佳实践"></a>
+
+![最佳实践](https://via.placeholder.com/800x200?text=最佳实践)
 
 ## 最佳实践
 
-（此处略，按前文格式继续美化即可...）
+### 性能优化
+
+- 启用全站HTTPS，提升安全性与SEO。
+- 静态资源使用CDN缓存，减少源站压力。
+- 合理配置缓存策略，动态与静态分离。
+- 使用HTTP/2、Gzip压缩提升传输效率。
+
+### 安全防护
+
+- 配置WAF规则，防护SQL注入、XSS等攻击。
+- 启用DDoS防护，定期检查安全日志。
+- 对敏感API启用速率限制和Bot管理。
+
+### 监控与告警
+
+- 配置实时监控，关注流量、延迟、错误率。
+- 设置自动告警，及时响应异常。
+- 定期回顾和优化安全策略。
+
+### FAQ
+
+- **Q: 如何快速定位性能瓶颈？**
+  > A: 结合EdgeOne监控与源站日志，分析延迟与流量分布。
+- **Q: 如何应对突发流量？**
+  > A: 启用自动扩容和DDoS防护，合理配置缓存。
+
+### 参考资料
+
+- [EdgeOne官方文档](https://edgeone.zjw6.cn/)
+- [腾讯云文档中心](https://cloud.tencent.com/document/product/1552)
+- [CDN最佳实践](https://cloud.tencent.com/developer/article/1816822)
 
 ---
 
-> **更多信息请访问 [EdgeOne官网](https://edgeone.ai)**
+## 贡献指南
+
+欢迎提交PR、Issue或建议！
+
+1. Fork本仓库
+2. 新建分支并提交修改
+3. 提交PR并描述变更内容
+
+如有疑问请联系 [zjw@zjw6.cn](mailto:zjw@zjw6.cn)
+
+---
+
+## 致谢
+
+感谢所有EdgeOne用户、贡献者和社区成员的支持！
+
+---
+
+## 版本说明
+
+- v1.0 初版发布，涵盖EdgeOne核心功能与最佳实践
+- v1.1 增加多语言集成示例与FAQ
+- v1.2 全面美化文档结构与排版
+
+> 文档持续更新中，欢迎关注与反馈！
     
     
