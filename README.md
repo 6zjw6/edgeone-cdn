@@ -1,6 +1,12 @@
 # edgeone-cdn
 EdgeOne技术教程
 
+
+我做的相关教程网站（仅供参考）来源官方
+https://edgeone.zjw6.cn/
+
+
+
 EdgeOne技术教程
 从入门到实战
 实时更新
