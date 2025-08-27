@@ -1017,3 +1017,16 @@ jobs:
 > 文档持续更新中，欢迎关注与反馈！
     
     
+
+
+---
+
+## EdgeOne 免费套餐
+
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助：EdgeOne 提供长期有效的免费套餐，包含不限量的流量和请求，覆盖中国大陆节点，且无任何超额收费，感兴趣的朋友可以点击下面的链接领取。
+
+[亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/pricing)
+
+![Tencent EdgeOne Logo](https://private-us-east-1.manuscdn.com/sessionFile/JJBdg6hEGnExnTzz8K1inQ/sandbox/q0hCLW3dwu2MfQiwpgLD0N-images_1756265840998_na1fn_L2hvbWUvdWJ1bnR1L3VwbG9hZC9zZWFyY2hfaW1hZ2VzL3h0WXFodXNXNExnVg.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSkpCZGc2aEVHbkV4blR6ejhLMWluUS9zYW5kYm94L3EwaENMVzNkd3UyTWZRaXdwZ0xEME4taW1hZ2VzXzE3NTYyNjU4NDA5OThfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwzVndiRzloWkM5elpXRnlZMmhmYVcxaFoyVnpMM2gwV1hGb2RYTlhORXhuVmcucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=TwKzjSSE4rJgEUtiOiz4aY8NC2ReQ8KDvLMzS34ZXmTs0EpYni4Kyt~4jZMULPgdaiurUWjNvBGKZ5rTp3H-sqhtsjVS4pfuMP89BYRaAG7AS8HJvg2A8SKZgyvDCy5a2PJcK~5kuUMUn~AiRVwcMpz7SeaaTv1w73rlqR1RxHd5PakRP6l-2heyLVD~P9wev7AwNJoYoTUycmfXM-YC4RTNmh33B-GlhQYSey54TNeWdY0HuFBevcPfogLMf5aXMVqCeUdUz9JT-jGSm3wlVEI32yLQ5n5MQ8F0~EmBmanEL2ALFAyheq1-sZNp618LyJVeSaZ9-JUcAMXuILNzEw__)
+
+
