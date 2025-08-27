@@ -1,7 +1,7 @@
 # EdgeOne技术教程
 
 > 从入门到实战 · 实时更新  
-> 完整版教程：[https://edgeone.zjw6.cn/](https://edgeone.zjw6.cn/)
+> 完整版教程：[https://www.zjw6.cn/](https://www.zjw6.cn/)
 
 ---
 
@@ -21,9 +21,7 @@
 
 ---
 
-<a name="edgeone-简介"></a>
-
-![EdgeOne 简介](./images/edgeone_intro.png)
+<a name="edgeone-简介"></a>![EdgeOne 简介](images/edgeone_intro.png)
 
 ## EdgeOne 简介
 
@@ -44,7 +42,7 @@ EdgeOne是腾讯云推出的下一代边缘安全加速平台，基于腾讯全�
 
 <a name="快速入门"></a>
 
-![快速入门](./images/edgeone_quickstart.png)
+![快速入门](images/edgeone_quickstart.png)
 
 ## 快速入门
 
@@ -105,7 +103,7 @@ EdgeOne是腾讯云推出的下一代边缘安全加速平台，基于腾讯全�
 
 <a name="使用案例"></a>
 
-![使用案例](./images/edgeone_cases.png)
+![使用案例](images/edgeone_cases.png)
 
 ## 使用案例
 
@@ -249,7 +247,7 @@ const data = await client.request('/user/profile', {
 
 <a name="pages-模板"></a>
 
-![Pages 模板](./images/edgeone_pages.png)
+![Pages 模板](images/edgeone_pages.png)
 
 ## Pages 模板
 
@@ -410,7 +408,7 @@ jobs:
 
 <a name="边缘函数"></a>
 
-![边缘函数](./images/edgeone_functions.png)
+![边缘函数](images/edgeone_functions.png)
 
 ## 边缘函数
 
@@ -981,7 +979,7 @@ jobs:
 
 ### 参考资料
 
-- [EdgeOne官方文档](https://edgeone.zjw6.cn/)
+- [EdgeOne官方文档](https://www.zjw6.cn/)
 - [腾讯云文档中心](https://cloud.tencent.com/document/product/1552)
 
 
@@ -1027,6 +1025,6 @@ jobs:
 
 [亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/pricing)
 
-![Tencent EdgeOne Logo](https://private-us-east-1.manuscdn.com/sessionFile/JJBdg6hEGnExnTzz8K1inQ/sandbox/q0hCLW3dwu2MfQiwpgLD0N-images_1756265840998_na1fn_L2hvbWUvdWJ1bnR1L3VwbG9hZC9zZWFyY2hfaW1hZ2VzL3h0WXFodXNXNExnVg.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSkpCZGc2aEVHbkV4blR6ejhLMWluUS9zYW5kYm94L3EwaENMVzNkd3UyTWZRaXdwZ0xEME4taW1hZ2VzXzE3NTYyNjU4NDA5OThfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwzVndiRzloWkM5elpXRnlZMmhmYVcxaFoyVnpMM2gwV1hGb2RYTlhORXhuVmcucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=TwKzjSSE4rJgEUtiOiz4aY8NC2ReQ8KDvLMzS34ZXmTs0EpYni4Kyt~4jZMULPgdaiurUWjNvBGKZ5rTp3H-sqhtsjVS4pfuMP89BYRaAG7AS8HJvg2A8SKZgyvDCy5a2PJcK~5kuUMUn~AiRVwcMpz7SeaaTv1w73rlqR1RxHd5PakRP6l-2heyLVD~P9wev7AwNJoYoTUycmfXM-YC4RTNmh33B-GlhQYSey54TNeWdY0HuFBevcPfogLMf5aXMVqCeUdUz9JT-jGSm3wlVEI32yLQ5n5MQ8F0~EmBmanEL2ALFAyheq1-sZNp618LyJVeSaZ9-JUcAMXuILNzEw__)
+![Tencent EdgeOne Logo](https://private-us-east-1.manuscdn.com/sessionFile/JJBdg6hEGnExnTzz8K1inQ/sandbox/ULlLUBIUM36HMgjwiQ3ZYK-images_1756266404473_na1fn_L2hvbWUvdWJ1bnR1L3VwbG9hZC9zZWFyY2hfaW1hZ2VzL1ZKY1dyRTJZSHl5bQ.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvSkpCZGc2aEVHbkV4blR6ejhLMWluUS9zYW5kYm94L1VMbExVQklVTTM2SE1nandpUTNaWUstaW1hZ2VzXzE3NTYyNjY0MDQ0NzNfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwzVndiRzloWkM5elpXRnlZMmhmYVcxaFoyVnpMMVpLWTFkeVJUSlpTSGw1YlEuanBnIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QuNmlGNmKZGnVvY3ya4F2Y2VrSfCYPIIL2BM0kXXcT0jAWJNkvbSiEUcXDXXRZf35GSKPR-7cDzq8W~l6rmlzt0cyPOj8dB4On-o~2QtLsl2wnKBfiNELiZk-3aeZWqicBLwpdh7M0TmaHqm4qO78IqCeziUaBhPH0WJQtDL94pqrdW9BBNcMSdi31otF7THRs9dcrCmgmYV~-sq59s0edeAVGLvSyySz8GBy-gb6-2s1k0SsGA35DkNjUJsTbJ4~5~hRkmKvsWR3yYUoxhSEtHFdYXohJGGZC2FT-hb~kjpGkKZapLCnDxDZr1kto~iyTgwr8DrvXESuSmGC2HkWA__)
 
 
